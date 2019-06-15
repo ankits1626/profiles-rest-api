@@ -1,0 +1,14 @@
+## create vagrant file
+    vagrant init ubutntu/bionic64
+
+## initiate vagrant
+    vagrant up
+
+## connect to vagrant
+    vagrant ssh
+
+## exit vagrant
+    exit
+
+## switch to project folder
+    cd /vagrant
