@@ -12,3 +12,29 @@
 
 ## switch to project folder
     cd /vagrant
+
+## create virtual enviornment in vagrant server
+    python -m venv ~/env/
+
+## activate virtual enviornment
+    source ~/env/bin/activate
+
+## deactivate virtual enviornment
+    deactivate
+
+
+## create requirements.txt
+
+## install requirements
+    pip install -r  requirements.txt
+
+## create django project
+    django-admin startproject profiles_project .
+
+## create an app
+    python manage.py startapp  profiles_api
+
+## enable app in project
+
+## run django server
+    python manage.py runserver 0.0.0.0:8000
