@@ -34,7 +34,22 @@
 ## create an app
     python manage.py startapp  profiles_api
 
-## enable app in project
+## add app in project settings
+    'rest_framework',
+    'rest_framework.authtoken',
+    'profiles_api',
 
 ## run django server
     python manage.py runserver 0.0.0.0:8000
+
+
+## create user profile model derived from AbstractBaseUser, PemissionMixin
+
+## create model manager extends BaseUserManager
+
+## Configure project to use our custom model
+
+## make migrations using
+    python manage.py makemigrations profiles_api
+    python manage.py migrate
+
