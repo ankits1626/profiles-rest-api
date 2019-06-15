@@ -53,3 +53,8 @@
     python manage.py makemigrations profiles_api
     python manage.py migrate
 
+## create super user
+    python manage.py createsuperuser
+
+
+
