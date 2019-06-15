@@ -1,3 +1,6 @@
+## kill port already in use
+    sudo lsof -t -i tcp:8000 | xargs kill -9
+
 ## create vagrant file
     vagrant init ubutntu/bionic64
 
@@ -53,8 +56,14 @@
     python manage.py makemigrations profiles_api
     python manage.py migrate
 
+## register model to admin.py
+
 ## create super user
     python manage.py createsuperuser
 
+
+## create APIView
+## create urls.py for app
+## include app urls.py to projects url.py
 
 
